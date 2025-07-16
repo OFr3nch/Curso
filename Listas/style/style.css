@@ -1,10 +1,23 @@
-html {
+html{
     font-family: Poppins, sans-serif;
+    background-color: rgb(48, 47, 47);
 }
-h1 {
+h1{
     font-size: 60px;
     text-align: center;
+    color: rgb(204, 197, 197);
+}
+p, li{
+    font-size: 20px;
+    color: rgb(204, 197, 197);
 }
 h2, h3, h4{
     font-size: 30px;
+    color: rgb(204, 197, 197);
+}
+img{
+    display:flex;
+}
+a{
+    color: rgb(204, 197, 197);
 }
