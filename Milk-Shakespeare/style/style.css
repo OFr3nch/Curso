@@ -1,0 +1,13 @@
+html{
+    font-family: Poppins, sans-serif;
+    background-color: #F4E6C9;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    border: 5px solid #B64130;
+    background-color: #B64130;
+    
+}
