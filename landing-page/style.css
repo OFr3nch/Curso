@@ -78,3 +78,43 @@ body {
 .btn-cta:hover {
     background-color: #4338ca;
 }
+
+.conteudo {
+    background-color: #ffffff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 2rem;
+    color: #111827;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    }
+
+.card {
+    background-color: #f3f4f6;
+    padding: 4rem 2rem;
+    border-radius: 8px;
+    box-shadow: #cdd1da 2.5px 2.5px 2.5px;
+}
+
+.card h3 {
+    color: #4f46e5;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #6b7280;
+    max-width: 250px;
+} 
+
+.card:hover {
+    transform: translateY(-5px);
+}
