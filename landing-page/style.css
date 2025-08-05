@@ -118,3 +118,48 @@ body {
 .card:hover {
     transform: translateY(-5px);
 }
+
+.depoimento {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    max-width: 300px;
+    transition: transform 0.3s;
+}
+.depoimento img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.depoimento p {
+    font-style: italic;
+    color: #4B5563;
+    margin-bottom: 1rem;
+}
+.depoimento span {
+    font-weight: bold;
+    color: #4F46E5;
+}
+.depoimentos {
+    background-color: #F9FAFB;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.depoimentos h2 {
+    font-size: 2rem;
+    color: #111827;
+    margin-bottom: 3rem;
+}
+.depoimentos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.depoimento:hover {
+    transform: translateY(-5px);
+}
