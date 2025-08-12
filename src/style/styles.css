@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff6f6d7;
+}
+
+.botao {
+    border: none;
+    background-color: #ba4e2f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    transition: backround-color 0.3s;
+    display: flex;
+}
+
+.botao:hover {
+    background-color: #ba2e1f;
+}
+
+.questionario label {
+    display: flex;
+}
+
+.questionario input{
+    border: 1px #ba4e2f solid;
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 800px;
+    justify-content: center;
+}
+
+.image-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
